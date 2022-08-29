@@ -4,3 +4,7 @@
   status = 200
   force = false
   headers = {X-From = "Netlify"}
+
+[[edge_functions]]
+  function = "include-banner"
+  path = "/*"
