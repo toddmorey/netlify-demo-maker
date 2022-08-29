@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/"
+  to = "https://www.bird.co"
+  status = 200
+  force = false
+  headers = {X-From = "Netlify"}
